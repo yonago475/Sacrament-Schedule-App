@@ -4,7 +4,7 @@ import type { Duty, Member, Assignments, ActiveView, NewMember } from './types';
 import { Priesthood } from './types';
 import { CalendarIcon, UsersIcon, SettingsIcon, WarningIcon } from './components/Icons';
 import MemberSelectionModal from './components/MemberSelectionModal';
-import MembersView from './components/MembersView';
+import { MembersView } from './components/MembersView';
 import SettingsView from './components/SettingsView';
 import PasswordModal from './components/PasswordModal';
 import { db } from './firebaseConfig';

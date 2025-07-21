@@ -5,7 +5,7 @@ interface MembersViewProps {
   members: Member[];
 }
 
-const MembersView: React.FC<MembersViewProps> = ({ members }) => {
+export const MembersView: React.FC<MembersViewProps> = ({ members }) => {
     return (
         <div className="p-4 sm:p-6 flex-grow overflow-y-auto">
             <h2 className="text-xl font-bold text-slate-800 mb-4">メンバー一覧</h2>
